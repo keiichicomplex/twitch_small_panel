@@ -1,9 +1,11 @@
 # TDI Challenge Project
 "When and What to Stream on Twitch.tv ? " 
 
+Original datasource : https://clivecast.github.io
+
 Content:
-1. twitch_panel_fixedeffect.py : Panel Regression Data Cleaning
-                                creates regression data used in twitch_plot. cleaned data in regression 250MB > 25MB limit
+1. twitch_panel_fixedeffect.py : Panel Regression Model. Data Source 250 MB> 25MB limit, not included.
+                                 creates regression data results 'twitch_small_panel_results.txt'
 
 2. twitch_plot.py : Plots graphs using 'twitch_small_panel_results.txt'
 
