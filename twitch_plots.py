@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 # PLOT 1 Best Best Time/Language to stream a given Game! 
-file_name = 'C:/Users/kennychuk/Documents/Data Science/Twitch/twitch_small_panel_results.txt'
+file_name = 'twitch_small_panel_results.txt'
 twitch = pd.read_csv(file_name,delimiter=",",header=0)
 twitch.columns = ['param','result']
 twitch.index=twitch['param']
